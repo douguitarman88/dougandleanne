@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <section>
         <video className="css-v2kfba" preload="auto" autoPlay={true} muted={false} loop={true} playsInline>
-          <source src="/8513593-uhd_3840_2160_25fps.mp4" type="video/mp4" /> {/* https://www.pexels.com/search/videos/musician/?orientation=landscape */}
+          <source src="https://b8yf6gxfhgurbkvz.public.blob.vercel-storage.com/8513593-uhd_3840_2160_25fps.mp4" type="video/mp4" /> {/* https://www.pexels.com/search/videos/musician/?orientation=landscape */}
         </video>
       </section>
 
