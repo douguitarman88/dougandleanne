@@ -52,7 +52,7 @@ export default function Home() {
     </div>
 
     <section className="bg-white border-b py-8">
-      <div className="container max-w-5xl mx-auto m-8">
+      <div className="container mx-auto m-8">
         <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           About Us
         </h2>
@@ -60,7 +60,7 @@ export default function Home() {
           <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <div className="flex flex-wrap">
-          <div className="w-5/6 sm:w-1/2 p-6">
+          <div className="w-full sm:w-1/2 p-6">
             <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
                a soulful duo...
             </h3>
@@ -94,7 +94,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-wrap">
-          <div className="w-5/6 sm:w-1/2 p-6">
+          <div className="w-full sm:w-1/2 p-6">
             <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
                Song List
             </h3>
