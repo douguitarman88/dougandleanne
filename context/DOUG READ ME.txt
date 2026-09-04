@@ -1,0 +1,13 @@
+context/ — Global React Contexts
+The context/ folder contains React contexts that are used across multiple pages, such as:
+
+Auth context
+Theme context
+Feature flags
+App-wide state
+Example:
+
+context/
+  auth.tsx
+  theme.tsx
+This keeps global state discoverable and organized, instead of buried inside components.

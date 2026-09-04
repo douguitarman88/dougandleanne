@@ -1,0 +1,24 @@
+components/ — Shared UI Components
+This folder contains reusable components used across the application:
+
+Buttons
+Inputs
+Modals
+Loaders
+Cards
+Examples:
+
+components/
+  button/
+    index.tsx
+  modal/
+    index.tsx
+  input/
+    index.tsx
+These components:
+
+Are framework-agnostic
+Do not contain page-specific logic
+Can be client or server components depending on need
+They’re mostly used in the component folder
+If a component requires "use client", it’s clearly scoped here—not leaked into pages.

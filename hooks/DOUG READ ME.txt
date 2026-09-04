@@ -1,0 +1,16 @@
+hooks/ — Shared Custom Hooks
+This folder is for reusable hooks, not page-specific ones.
+
+Examples:
+
+useAuth
+useDebounce
+useMediaQuery
+useMounted
+hooks/
+  use-auth.ts
+  use-debounce.ts
+Rule of thumb:
+
+If a hook is only used by one page, it belongs in contents/.
+If it’s reused, it belongs here.

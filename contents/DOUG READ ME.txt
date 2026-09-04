@@ -1,0 +1,28 @@
+contents/ — Page-Specific Logic (Client-Safe)
+This is the most important folder in this architecture.
+
+The contents/ folder houses:
+
+Page-specific UI logic
+Client components tied to a route
+Forms, modals, page-only interactions
+
+Example:
+
+contents/
+  dashboard/
+    index.tsx
+  auth/
+    index.tsx
+
+Your app/ page becomes extremely thin:
+
+// app/dashboard/page.tsx
+import DashboardContent from "@/contents/dashboard";
+
+export default function Page() {
+  return <DashboardContent />;
+}
+If DashboardContent needs "use client", it lives there, not in app/.
+
+This keeps routing clean and avoids accidental client-side rendering.

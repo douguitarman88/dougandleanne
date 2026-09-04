@@ -1,0 +1,18 @@
+utils/ — Utility & Helper Functions
+The utils/ folder contains pure helper logic:
+
+Formatters
+Validators
+Constants
+Small reusable functions
+Examples:
+
+utils/
+  format-date.ts
+  cn.ts
+  validators.ts
+These functions:
+
+Have no React dependency
+Are easy to test
+Can be used anywhere (server or client)

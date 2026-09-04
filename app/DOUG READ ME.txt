@@ -1,0 +1,18 @@
+Each folder has a single responsibility, and together they allow us to keep the app/ directory 100% server by default.
+
+app/ — Routing & Layout Only
+The app/ directory is reserved strictly for:
+
+Routing
+Layouts
+Server components
+Metadata
+Data fetching
+No page-specific business logic lives here.
+
+Because of this rule:
+
+There’s no need to sprinkle "use client" across pages
+Server Components remain pure
+Performance stays optimal
+Think of app/ as composition, not implementation.
