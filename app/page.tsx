@@ -107,7 +107,7 @@ export default function Home() {
               Say that you love me- Fleetwood Mac<br />
               Kiss of Life- Sade<br />
               More Love- Smokey Robinson<br />
-              Cruisin’- Smokey Robinson<br />
+              Cruisin'- Smokey Robinson<br />
               Sweet Thing-Chaka Kahn<br />
               Crazy Game- Indigo Girls<br />
               Baby I Love You-Aretha Franklin<br />
